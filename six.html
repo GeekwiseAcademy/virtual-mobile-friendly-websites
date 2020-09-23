@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mobile Friendly Websites - Day Two</title>
+    <title>Mobile Friendly Websites - Day Five</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -28,11 +28,11 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" role="button" aria-expanded="true">Lessons</a>
             <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="one.html">Day One</a></li>
-              <li><a class="dropdown-item active" href="two.html">Day Two</a></li>
+              <li><a class="dropdown-item" href="two.html">Day Two</a></li>
               <li><a class="dropdown-item" href="three.html">Day Three</a></li>
               <li><a class="dropdown-item" href="four.html">Day Four</a></li>
               <li><a class="dropdown-item" href="five.html">Day Five</a></li>
-              <li><a class="dropdown-item" href="six.html">Day Six</a></li>
+              <li><a class="dropdown-item active" href="six.html">Day Six</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="final.html">Final Project</a></li>
             </ul>
@@ -45,7 +45,7 @@
   <div class="container padtop3">
     <div class="row">
       <div class="col text-center">
-        <h1>Day 2</h1>
+        <h1>Day 6</h1>
       </div>
     </div>
 
@@ -56,10 +56,10 @@
       <main class="col-9">
         <ul class="points">
           <li>Take Home Review</li>
-          <li>Responsive Web Design</li>
+          <li>Utility Classes</li>
           <li>Daily Challenge</li>
-          <li>Flexbox</li>
-          <li>Final Project Overview</li>
+          <li>Google Maps Embed</li>
+          <li>Commit Messages</li>
           <li>Take Home Challenge</li>
         </ul>
       </main>
@@ -71,6 +71,8 @@
       </aside>
       <main class="col-9">
         <ul class="points">
+          <li>Review and approve eachother's PR</li>
+          <li>Once approved, merge and delete the jumbotron branch</li>
           <li>Questions?</li>
         </ul>
       </main>
@@ -78,17 +80,31 @@
 
     <div class="row section">
       <aside class="col">
-        <h2>Responsive Web Design</h2>
+        <h2>Utility CLasses</h2>
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://web.dev/responsive-web-design-basics/" target="_blank">Overview of the Basics</a></li>
-          <li><a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">Media Viewport</a></li>
-          <li><a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">Media Queries</a></li>
+          <li><a href="https://getbootstrap.com/docs/4.5/utilities/borders/" target="_blank">Utility Class Documentation</a></li>
           <ul class="nested-points">
-            <li><a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/" target="_blank">Media Queries for Standard Devices</a></li>
+            <li>Borders</li>
+            <li>Colors</li>
+            <li>Display</li>
+            <li>Flex</li>
+            <li>Position</li>
+            <li>Screen Readers</li>
+            <li>Shadows</li>
+            <li>Sizing</li>
+            <li>Spacing</li>
+            <li>Text</li>
+            <li>Vertical Alignment</li>
+            <li>Visibility</li>
           </ul>
-          <li>You can also view a site's mobile responsiveness by: right-click > inspector > toggle device toolbar (top left - tablet/phone icon)</li>
+          <li>Other classes:</li>
+          <ul class="nested-points">
+            <li><a href="https://getbootstrap.com/docs/4.5/content/typography/" target="_blank">Typography</a></li>
+            <li><a href="https://getbootstrap.com/docs/4.5/content/code/" target="_blank">Code</a></li>
+            <li><a href="https://getbootstrap.com/docs/4.5/content/images/" target="_blank">Images</a></li>
+          </ul>
         </ul>
       </main>
     </div>
@@ -99,39 +115,51 @@
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li>Using your repository from Day 1:</li>
-          <li>Create a new branch called daily-challenge</li>
-          <li>Create media queries for the following breakpoints:</li>
+          <li>Create a new repository named "event-landing-page" (Use your bootstrap-boilerplate template)</li>
+          <li>Add a collaborator</li>
+          <li>Clone <strong>your own</strong> repository</li>
+          <li>Create a new branch named daily-challenge</li>
+          <li>Recreate the jumbotron and speaker sections according to this wireframe: <a href="img/event-landing-page-wireframe.jpg" target="_blank">View Wireframe</a></li>
+          <li>Add, commit, and push your changes to your daily-challenge branch</li>
+          <li>Open a PR and request review from your collaborator</li>
+          <li>Review and approve eachother's PR</li>
+          <li>Once approved, merge and delete your daily-challenge branch</li>
+        </ul>
+      </main>
+    </div>
+
+    <div class="row section">
+      <aside class="col">
+        <h2>Google Maps Embed</h2>
+      </aside>
+      <main class="col-9">
+        <ul class="points">
+          <li>How to embed a Google Map</li>
           <ul class="nested-points">
-            <li>480px</li>
-            <li>768px</li>
-            <li>1024px</li>
+            <li>Go to <a href="https://www.google.com/maps" target="_blank">Google Maps</a></li>
+            <li>Enter an address into the search bar, click search</li>
+            <li>Click on the share icon</li>
+            <li>Choose "Embed Map"</li>
+            <li>Select (any) size of the map from the dropdown</li>
+            <li>Select and copy the HTML iframe embed code</li>
           </ul>
-          <li>Change the background color of the header at each breakpoint</li>
-          <li>Push your changes to your daily-challenge branch</li>
+          <li>How to make Google Map responsive</li>
+          <ul class="nested-points">
+            <li>Change the height and width attributes in the embed code to 100%</li>
+            <li><pre><code>&lt;iframe src=”xxxxxxxx” width=”100%” height=”100%” frameborder=”0” style=”border:0” allowfullscreen&gt;&lt;/iframe&gt;</code></pre></li>
+            <li>The map will be responsive to it's parent container</li>
+          </ul>
         </ul>
       </main>
     </div>
 
     <div class="row section">
       <aside class="col">
-        <h2>Flexbox</h2>
+        <h2>Commit Messages</h2>
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Guide to Flexbox (CSS-Tricks)</a></li>
-        </ul>
-      </main>
-    </div>
-
-    <div class="row section">
-      <aside class="col">
-        <h2>Final Project Overview</h2>
-      </aside>
-      <main class="col-9">
-        <ul class="points">
-          <li><a href="final.html">View Final Project Details</a></li>
-          <li>Questions?</li>
+          <li><a href="https://dev.to/chrissiemhrk/git-commit-message-5e21" target="_blank">How to write a good commit message</a></li>
         </ul>
       </main>
     </div>
@@ -142,7 +170,15 @@
       </aside>
       <main class="col-9">
         <ul class="points">
-          <li><a href="https://flexboxfroggy.com/" target="_blank">Try this game: Flexbox Froggy</a></li>
+          <li>In <strong>your own</strong> event-landing-page repository:</li>
+          <ul class="nested-points">
+            <li>Make sure your master branch is up-to-date</li>
+            <li>Create a new branch named take-home</li>
+            <li>Using the Daily Challenge wireframe example, finish recreating the landing page</li>
+            <li>Add, commit and push your changes to your take-home branch</li>
+            <li>Open a new pull request for your take-home branch</li>
+            <li>Request Review from your collaborator</li>
+          </ul>
         </ul>
       </main>
     </div>
