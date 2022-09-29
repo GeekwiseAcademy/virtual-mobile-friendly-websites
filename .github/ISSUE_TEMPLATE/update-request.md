@@ -3,7 +3,7 @@ name: Update Request
 about: Request to update content
 title: ''
 labels: update
-assignees: rockygg
+assignees: ayojackay
 
 ---
 
