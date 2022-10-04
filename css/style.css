@@ -53,7 +53,8 @@ ol.points {
 }
 
 ol.points > li {
-margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-indent: -3.5rem;
 }
 
 
@@ -66,6 +67,7 @@ ol.points > li::before {
     width: 45px;
     height: 45px;
     border-radius: 23px;
+    text-indent: 0;
     text-align: center;
     margin-right: 10px;
 }
